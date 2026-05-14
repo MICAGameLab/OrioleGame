@@ -40,6 +40,7 @@ public class NestScript : MonoBehaviour
                 sr.enabled = false;
                 nestModel.SetActive(true);
                 audioSource.PlayOneShot(audioClips[4]);
+                SeasonManager.instance.NextSeason(2);
             }
             else if(treeScript.NestCompletionAmount >= 75)
             {
