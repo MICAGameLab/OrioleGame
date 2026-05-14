@@ -47,7 +47,7 @@ public class SeasonChange : MonoBehaviour
     {
         updateArray(material[SeasonManager.instance.CurrentSeason - 1]);
         rend.materials = tempArray;
-        Debug.Log("materialchange");
+        //Debug.Log("materialchange");
     }
 
     void Update()
